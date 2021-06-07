@@ -1,0 +1,6 @@
+a=2
+b=5
+print(b<a)
+False
+print(b>a)
+True
