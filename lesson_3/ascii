@@ -1,0 +1,2 @@
+Name = "Yurii"
+print(ascii(Name))
