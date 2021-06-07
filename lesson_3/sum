@@ -1,0 +1,2 @@
+number = ( 22, 23, 56, 79 )
+print(sum(number)
