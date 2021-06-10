@@ -1,0 +1,17 @@
+#ввест данные
+
+print("Введите число а")
+a=float(input())
+print("Введите число b")
+b=float(input())
+print("Введите число c")
+c=float(input())
+
+#формула
+d=a+b+c
+f=a*b*c
+
+#Результат
+print("Сумма=", d)
+print("Произведения=", f)
+
