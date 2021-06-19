@@ -12,10 +12,18 @@ new_players = {
     "Bill Russell": 194,
 }
 Basketball_players.update(new_players)
-pprint(Basketball_players)
+print("With a new player:", Basketball_players)
 
 # remove player
 
 del Basketball_players ["Magic Johnson"]
-pprint(Basketball_players)
+print("Removed one player:", Basketball_players)
 
+# search players
+
+print(Basketball_players.get("Bill Russell"))
+
+# Replacing data
+print(Basketball_players["Wilt Chamberlain"])
+Basketball_players["Wilt Chamberlain"] = 202
+print(Basketball_players)
